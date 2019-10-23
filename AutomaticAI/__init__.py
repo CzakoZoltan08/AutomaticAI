@@ -1,1 +1,1 @@
-from AutoAIAlgorithm.ParticleSwarmOptimization import PSO
+from AutomaticAI.ParticleSwarmOptimization import PSO

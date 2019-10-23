@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'AutomaticAI',         # How you named your package folder (MyLib)
   packages = ['AutomaticAI'],   # Chose the same as "name"
-  version = '1.0',      # Start with a small number and increase it with every change you make
+  version = '1.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Hybrid Approach for Automatic Artificial Intelligence Algorithm Selection and Hyperparameter Tuning',   # Give a short description about your library
   author = 'Czako Zoltan',                   # Type in your name
@@ -12,7 +12,7 @@ setup(
   download_url = 'https://github.com/CzakoZoltan08/AutomaticAI/archive/v_01.tar.gz',    # I explain this later on
   keywords = ['AI', 'Arificial Intelligence', 'Particle Swarm Optimization', 'Simulated Annealing', 'Automatic Algorithm Selection', 'Automatic parameter optimization'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'sklearn',
+          'scikit-learn',
           'numpy',
 		  'scipy',
       ],
