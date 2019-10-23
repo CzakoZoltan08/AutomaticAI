@@ -1,29 +1,41 @@
-# AutomaticAI - A Hybrid Approach for Automatic Artificial Intelligence Algorithm Selection and Hyperparameter Tuning
 
-## Introduction
+AutomaticAI - A Hybrid Approach for Automatic Artificial Intelligence Algorithm Selection and Hyperparameter Tuning
+===================================================================================================================
+
+Introduction
+----------------
 
 This is method used for solving the problem of AI algorithm selection and hyperparameter tuning, without human intervention, in a fully automated way. The method is a hybrid approach, a combination between Particle Swarm Optimization and the Simulated Annealing.
 
-## Example Usage
 
-```python
+Example Usage
+----------------
+
 from sklearn import datasets
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import accuracy_score
 
 from AutoAIAlgorithm.ParticleSwarmOptimization import PSO
 
+
+
 def main():
     # load the MNIST digits dataset
+
     mnist = datasets.load_digits()
     
     X = mnist.data
+
     y = mnist.target
    
     # Splitting the data into training set, test set and validation set
+
     x_train, x_test, y_train, y_test = train_test_split(X, y)
 
     num_particles=5
+
     num_iterations=30
     
     pso = PSO(particle_count=num_particles,
@@ -44,4 +56,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

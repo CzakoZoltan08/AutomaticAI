@@ -1,16 +1,11 @@
 from distutils.core import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setup(
   name = 'AutomaticAI',         # How you named your package folder (MyLib)
   packages = ['AutomaticAI'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '1.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Hybrid Approach for Automatic Artificial Intelligence Algorithm Selection and Hyperparameter Tuning',   # Give a short description about your library
-  long_description=long_description,
-  long_description_content_type="text/markdown",
   author = 'Czako Zoltan',                   # Type in your name
   author_email = 'czakozoltan08@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/CzakoZoltan08/AutomaticAI',   # Provide either the link to your github or to your website
