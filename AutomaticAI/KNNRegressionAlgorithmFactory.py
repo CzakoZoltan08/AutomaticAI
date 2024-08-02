@@ -37,7 +37,7 @@ param_dict_logistic_regression['n_neighbors'] = 1
 param_dict_logistic_regression['algorithm'] = 'auto'
 
 
-bounds=[(1.001,4.99),(1.001,199.99),(0.001,2.99)]
+bounds=[(1.001,4.99),(1.001,9.99),(0.001,2.99)]
 
 
 def get_algorithm():
